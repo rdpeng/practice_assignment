@@ -142,7 +142,7 @@ head(andy_david)
 tail(andy_david)
 ```
 
-One thing to note, rbind needs 2 arguments.  The first is an existing data frame and the second is what you want to append to it.  This means that there are occassions when you might want to create an empty data frame just so there's *something* to use as the existing data frame in the rbind argument.  
+One thing to note, rbind needs 2 arguments.  The first is an existing data frame and the second is what you want to append to it.  This means that there are occasions when you might want to create an empty data frame just so there's *something* to use as the existing data frame in the rbind argument.  
 
 Don't worry if you can't imagine when that would be useful because you'll see an example in just a little while.
 
