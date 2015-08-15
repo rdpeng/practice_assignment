@@ -251,6 +251,8 @@ weightmedian("diet_data", 4)
 weightmedian("diet_data", 17)
 ```
 
+The answers provided by your function from the above examples are: 197.5, 188 and 198.
+
 Hopefully, this has given you some practice applying the basic concepts from weeks 1 and 2.  If you can work your way through this example, you should have all of the tools needed to complete part 1 of assignment 1.  Parts 2 and 3 are really just expanding on the same basic concepts, potentially adding in some ideas like cbinds and if-else.
 
 ***
