@@ -171,7 +171,7 @@ Whoops.  Object 'dat' not found.  This is because you can't rbind something into
 
 ```{r}
 dat <- data.frame()
-for (i in 1:5) {
+for (i in seq(files_full)) {
         dat <- rbind(dat, read.csv(files_full[i]))
 }
 str(dat)
@@ -233,7 +233,7 @@ So what does the function look like?
 weightmedian <- function(directory, day)  {
         files_list <- list.files(directory, full.names=TRUE)   #creates a list of files
         dat <- data.frame()                             #creates an empty data frame
-        for (i in 1:5) {                                
+        for (i in seq(files_full)) {                               
                 #loops through the files, rbinding them together 
                 dat <- rbind(dat, read.csv(files_list[i]))
         }
